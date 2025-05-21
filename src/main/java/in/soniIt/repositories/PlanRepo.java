@@ -1,5 +1,8 @@
 package in.soniIt.repositories;
 
-public interface PlanRepo {
+import in.soniIt.entites.PlanEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PlanRepo  extends JpaRepository<PlanEntity,Integer> {
 
 }
